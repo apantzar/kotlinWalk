@@ -7,6 +7,10 @@ class Item() {
     constructor(_name: String) : this(){
         name = _name
     }
+
+    init {
+        println("Inside init block")
+    }
 }
 
 fun main() {
